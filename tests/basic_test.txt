@@ -1,0 +1,11 @@
+# Demostración de fragmentación, fugas y algoritmos
+ALLOC A 300
+ALLOC B 150
+ALLOC C 200
+FREE B
+PRINT
+ALLOC D 100
+FREE A
+PRINT
+ALLOC E 50
+PRINT

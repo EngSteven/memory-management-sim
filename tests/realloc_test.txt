@@ -1,0 +1,29 @@
+# Reducir
+ALLOC A 200
+PRINT
+REALLOC A 100
+PRINT
+
+# Expandir in-place
+REALLOC A 200
+PRINT
+
+REALLOC A 100
+ALLOC B 150
+PRINT
+
+# Expandir con movimiento
+REALLOC A 300
+PRINT
+
+# REALLOC con mismo size (No hace nada)
+REALLOC A 300
+PRINT
+
+# REALLOC con size en 0 (FREE)
+REALLOC A 0
+REALLOC B 0
+PRINT
+
+
+

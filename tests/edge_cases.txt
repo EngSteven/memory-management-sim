@@ -1,0 +1,20 @@
+# Edge cases
+
+# ALLOC repetido → error
+ALLOC A 100
+ALLOC A 50
+
+# FREE inexistente → error
+FREE Z
+
+# REALLOC inexistente → error
+REALLOC Y 300
+
+# REALLOC a tamaño mayor sin hueco
+ALLOC D 1000
+REALLOC D 2000  # debería fallar
+
+# ALLOC a tamaño mayor sin hueco
+ALLOC S 5000
+
+PRINT
