@@ -9,6 +9,10 @@ Simulación de administración dinámica de memoria utilizando un heap personali
 
 * Jefferson Salas Cordero
 
+## Video de Ejecución de pruebas
+
+https://youtu.be/sPSwFiAT9pA
+
 ## Compilación y Ejecución
 
 **Nota:** se debe usar una terminal compatible con Linux
