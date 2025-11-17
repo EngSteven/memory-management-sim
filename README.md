@@ -27,7 +27,7 @@ Esto genera el ejecutable `memsim`.
 
 #### Pruebas básicas
 ```bash
-./memsim tests/basic_input.txt
+./memsim tests/basic_test.txt
 ```
 
 #### Pruebas de REALLOC
